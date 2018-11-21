@@ -12,11 +12,24 @@ const Nav = styled.nav`
   position: fixed;
   z-index: 2;
   font-family: 'Montserrat', sans-serif;
+  background: #00000070;
+  @media (max-width: 650px) {
+    justify-content: center;
+  }
 `
 const NavLinks = styled.ul`
   list-style: none;
   margin: 0;
   display: flex;
+  @media (max-width: 650px) {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    justify-content: center;
+    background: #111;
+    padding: 1em;
+  }
 `
 
 const NavBar = () => (
@@ -28,7 +41,7 @@ const NavBar = () => (
       <li>
         <Link to="/menu/">menu</Link>
       </li>
-      <li style={{margin: `0 1em`}}>
+      <li style={{ margin: `0 1em` }}>
         <Link to="/about/">about</Link>
       </li>
       <li>

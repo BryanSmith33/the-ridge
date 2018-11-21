@@ -10,6 +10,13 @@ const FooterContainer = styled.footer`
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
+  @media (max-width: 650px) {
+    margin-bottom: 3em;
+  }
+  @media (max-width: 575px) {
+    text-align: center;
+    font-size: 0.8em;
+  }
 `
 const Footer = () => (
   <FooterContainer>
