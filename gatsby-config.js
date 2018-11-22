@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'The Ridge Cafe',
+    title: 'The Ridge Market & Cafe',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -29,7 +29,7 @@ module.exports = {
       resolve: 'gatsby-plugin-web-font-loader',
       options: {
         google: {
-          families: ['Lato:300,400', 'Alfa Slab One', 'Montserrat'],
+          families: ['Montserrat'],
         },
       },
     },

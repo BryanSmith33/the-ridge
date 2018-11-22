@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import styled from 'styled-components'
 import Layout from '../components/layout'
 import contactBg from '../images/contact.jpg'
@@ -77,7 +76,7 @@ const Contact = () => (
   <Layout>
     <ContactContainer>
       <BackgroundFilter />
-      <Title>Questions? Comments? Contact Us!</Title>
+      <Title>Contact Us</Title>
       <InfoContainer>
         <div>
           <Address>

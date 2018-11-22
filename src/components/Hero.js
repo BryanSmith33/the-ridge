@@ -45,7 +45,7 @@ const Hero = () => (
   <BrandContainer>
     <The>the</The> <br />
     <Ridge>ridge</Ridge> <br />
-    <SubHeader>Market & Cafe</SubHeader>
+    <SubHeader>market & cafe</SubHeader>
   </BrandContainer>
 )
 
