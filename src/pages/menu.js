@@ -27,7 +27,7 @@ const Title = styled.h1`
   text-transform: uppercase;
   text-align: center;
   position: relative;
-  color: #111;
+  color: #111111;
 `
 
 const Menu = () => (
