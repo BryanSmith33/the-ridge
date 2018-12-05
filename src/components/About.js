@@ -25,15 +25,7 @@ const About = () => (
       ridge cafe started out as a... The ridge cafe started out as a... The
       ridge cafe started out as a... The ridge cafe started out as a... The
       ridge cafe started out as a... The ridge cafe started out as a... The
-      ridge cafe started out as a... The ridge cafe started out as a... The
-      ridge cafe started out as a... The ridge cafe started out as a... The
-      ridge cafe started out as a... The ridge cafe started out as a... The
-      ridge cafe started out as a... The ridge cafe started out as a... The
-      ridge cafe started out as a... The ridge cafe started out as a... The
-      ridge cafe started out as a... The ridge cafe started out as a... The
-      ridge cafe started out as a... The ridge cafe started out as a... The
-      ridge cafe started out as a... The ridge cafe started out as a... The
-      ridge cafe started out as a... The ridge cafe started out as a...
+      
     </p>
   </HoursContainer>
 )
