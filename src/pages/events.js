@@ -6,7 +6,7 @@ import eventBg from '../images/about.jpg'
 
 const EventsContainer = styled.div`
   height: calc(100vh - 3.7em);
-  background: url(${eventtBg}) no-repeat center;
+  background: url(${eventBg}) no-repeat center;
   background-size: cover;
   position: relative;
   display: flex;
