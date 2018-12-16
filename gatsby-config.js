@@ -3,6 +3,7 @@ module.exports = {
     title: 'The Ridge Market & Cafe',
   },
   plugins: [
+    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-styled-components`,
     'gatsby-plugin-react-helmet',
     {
