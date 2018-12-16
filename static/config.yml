@@ -1,0 +1,20 @@
+backend:
+  name: git-gateway
+  branch: master
+  site_domain: https://cranky-bassi-5fe887.netlify.com
+
+media_folder: static/images/uploads
+public_folder: /images
+
+collections:
+  - name: "events"
+    label: "Events"
+    description: "Event dates, location, and information."
+    folder: "src/pages/events"
+    create: true
+    slug: "{{name}}"
+    fields:
+      - { label: "Template Key", name: "templateKey", widget: "hidden", default: "event" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Date", name: "date", widget: "datetime" }
+      - {label: "Featured Image", name: "thumbnail", widget: "image"}
