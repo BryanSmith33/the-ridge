@@ -2,11 +2,11 @@ import React from 'react'
 import styled from 'styled-components'
 import Layout from '../components/layout'
 
-import aboutBg from '../images/about.jpg'
+import eventBg from '../images/about.jpg'
 
-const AboutContainer = styled.div`
+const EventsContainer = styled.div`
   height: calc(100vh - 3.7em);
-  background: url(${aboutBg}) no-repeat center;
+  background: url(${eventtBg}) no-repeat center;
   background-size: cover;
   position: relative;
   display: flex;
@@ -29,13 +29,13 @@ const Title = styled.h1`
   position: relative;
 `
 
-const About = () => (
+const Events = () => (
   <Layout>
-    <AboutContainer>
+    <EventsContainer>
       <BackgroundFilter />
       <Title>upcoming events</Title>
-    </AboutContainer>
+    </EventsContainer>
   </Layout>
 )
 
-export default About
+export default Events

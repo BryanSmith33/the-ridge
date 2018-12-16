@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import aboutImg from '../images/about_us_bg.jpg'
 
-const HoursContainer = styled.div`
+const EventsContainer = styled.div`
   background: aquamarine;
   padding: 2em 3em;
   font-family: 'Montserrat', sans-serif;
@@ -17,8 +17,8 @@ const Title = styled.h1`
   text-align: center;
 `
 
-const About = () => (
-  <HoursContainer>
+const Events = () => (
+  <EventsContainer>
     <Title>Events</Title>
     <p>
       The ridge cafe started out as a...The ridge cafe started out as a...The
@@ -27,7 +27,7 @@ const About = () => (
       ridge cafe started out as a... The ridge cafe started out as a... The
       
     </p>
-  </HoursContainer>
+  </EventsContainer>
 )
 
-export default About
+export default Events

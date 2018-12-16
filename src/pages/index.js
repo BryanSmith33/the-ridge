@@ -5,7 +5,7 @@ import styled from 'styled-components'
 import Hero from '../components/Hero'
 import Hours from '../components/Hours'
 import Menu from '../components/Menu'
-import About from '../components/About'
+import Event from '../components/Event'
 
 const HoursMenuContainer = styled.section`
   display: flex;
@@ -20,7 +20,7 @@ const IndexPage = () => (
       <Hours />
       <Menu />
     </HoursMenuContainer>
-    <About />
+    <Event />
   </Layout>
 )
 
