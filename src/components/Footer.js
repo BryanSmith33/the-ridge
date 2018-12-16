@@ -11,7 +11,7 @@ const FooterContainer = styled.footer`
   align-items: center;
   text-transform: uppercase;
   @media (max-width: 650px) {
-    margin-bottom: 3em;
+    margin-bottom: 4em;
   }
   @media (max-width: 575px) {
     text-align: center;

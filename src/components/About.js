@@ -19,7 +19,7 @@ const Title = styled.h1`
 
 const About = () => (
   <HoursContainer>
-    <Title>About Us</Title>
+    <Title>Events</Title>
     <p>
       The ridge cafe started out as a...The ridge cafe started out as a...The
       ridge cafe started out as a... The ridge cafe started out as a... The

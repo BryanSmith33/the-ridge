@@ -4,7 +4,6 @@ import hoursBg from '../images/hours_bg.jpg'
 
 const HoursContainer = styled.div`
   width: 50%;
-  background: tomato;
   padding: 2em 3em;
   font-family: 'Montserrat', sans-serif;
   background: url(${hoursBg}) no-repeat center;
@@ -35,27 +34,26 @@ const DayContainer = styled.div`
   max-width: 575px;
   margin: 0.5em auto;
   position: relative;
+  font-weight: bold;
 `
-const Day = styled.span``
-const Time = styled.span``
 const Hours = () => (
   <HoursContainer>
     <BackgroundFilter />
     <Title>hours</Title>
     <DayContainer>
-      <Day>Monday & Tuesday</Day> <Time>Closed</Time>
+      <span>Monday & Tuesday</span> <span>Closed</span>
     </DayContainer>
     <DayContainer>
-      <Day>Wednesday & Thursday</Day> <Time>11:30 AM - 8:30PM</Time>
+      <span>Wednesday & Thursday</span> <span>11:30 AM - 8:30PM</span>
     </DayContainer>
     <DayContainer>
-      <Day>Friday</Day> <Time>11:30AM - 9:00PM</Time>
+      <span>Friday</span> <span>11:30AM - 9:00PM</span>
     </DayContainer>
     <DayContainer>
-      <Day>Saturday</Day> <Time>9:00AM - 9:00PM</Time>
+      <span>Saturday</span> <span>9:00AM - 9:00PM</span>
     </DayContainer>
     <DayContainer>
-      <Day>Sunday</Day> <Time>9:00AM - 2:00PM</Time>
+      <span>Sunday</span> <span>9:00AM - 2:00PM</span>
     </DayContainer>
   </HoursContainer>
 )

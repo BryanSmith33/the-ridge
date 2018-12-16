@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'gatsby'
 import styled from 'styled-components'
 import Layout from '../components/layout'
 
@@ -34,7 +33,7 @@ const About = () => (
   <Layout>
     <AboutContainer>
       <BackgroundFilter />
-      <Title>about the ridge market & cafe</Title>
+      <Title>upcoming events</Title>
     </AboutContainer>
   </Layout>
 )
