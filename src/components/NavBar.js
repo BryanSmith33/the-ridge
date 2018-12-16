@@ -42,7 +42,7 @@ const NavBar = () => (
         <Link to="/menu/">menu</Link>
       </li>
       <li style={{ margin: `0 1em` }}>
-        <Link to="/about/">events</Link>
+        <Link to="/events/">events</Link>
       </li>
       <li>
         <Link to="/contact/">contact</Link>
