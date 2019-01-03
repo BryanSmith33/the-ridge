@@ -33,7 +33,7 @@ const Events = () => (
   <Layout>
     <EventsContainer>
       <BackgroundFilter />
-      <Title>upcoming events</Title>
+      <Title>check back for upcoming events</Title>
     </EventsContainer>
   </Layout>
 )
