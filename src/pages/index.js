@@ -18,9 +18,7 @@ const IndexPage = () => (
     <Hero />
     <HoursMenuContainer>
       <Hours />
-      <Menu />
     </HoursMenuContainer>
-    <Event />
   </Layout>
 )
 

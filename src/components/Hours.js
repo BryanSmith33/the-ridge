@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import hoursBg from '../images/hours_bg.jpg'
 
 const HoursContainer = styled.div`
-  width: 50%;
+  width: 100%;
   padding: 2em 3em;
   font-family: 'Montserrat', sans-serif;
   background: url(${hoursBg}) no-repeat center;
