@@ -21,10 +21,10 @@ module.exports = {
         name: 'the-ridge-cafe',
         short_name: 'ridge-cafe',
         start_url: '/',
-        background_color: '#663399',
-        theme_color: '#663399',
+        background_color: '#ffffff',
+        theme_color: '#d82c2c',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png',
+        icon: '',
       },
     },
     {
