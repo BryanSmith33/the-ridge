@@ -21,7 +21,7 @@ module.exports = {
         name: 'the-ridge-cafe',
         short_name: 'ridge-cafe',
         start_url: '/',
-        background_color: '#ffffff',
+        background_color: '#fff',
         theme_color: '#d82c2c',
         display: 'minimal-ui',
       },
